@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/index.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</head>
+
+<body>
+    <div>
+        <input id="txt_carnet" type="number" placeholder="Carnet">
+    </div>
+    <div id="container">
+        <div id="Ardilla" onclick="votar(1)" class="div_animal">
+            <label id="lbl_Ardilla">Ardilla</label>
+            <img src="img/ardilla.jpg" alt="">
+        </div>
+        <div id="Burro" onclick="votar(2)" class="div_animal">
+            <label id="lbl_Burro">Burro</label>
+            <img src="img/burro.jpg" alt="">
+        </div>
+        <div id="Caballo" onclick="votar(3)" class="div_animal">
+            <label id="lbl_Caballo">Caballo</label>
+            <img src="img/caballo.jpg" alt="">
+        </div>
+        <div id="Delfin" onclick="votar(4)" class="div_animal">
+            <label id="lbl_Delfin">Delfin</label>
+            <img src="img/delfin.jpg" alt="">
+        </div>
+        <div id="Elefante" onclick="votar(5)" class="div_animal">
+            <label id="lbl_Elefante">Elefante</label>
+            <img src="img/elefante.jpg" alt="">
+        </div>
+    </div>
+    <div id="div_button">
+        <button class="btn" onclick="contarVotos()">Contar Votos</button>
+        <div id="div_conteo_votos">
+        </div>
+    </div>
+</body>
+
+</html>

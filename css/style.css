@@ -1,0 +1,67 @@
+* {
+    font-family: roboto;
+}
+
+#div_button {
+    text-align: center;
+}
+
+.div_animal {
+    border: 3px solid #50d8d7;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#container {
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+img {
+    width: 250px;
+    height: 200px;
+}
+
+label {
+    display: block;
+    width: 80px;
+}
+
+input[type=number] {
+    width: 100%;
+    border: 2px solid #50d8d7;
+    border-radius: 4px;
+    margin: 8px 0;
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box;
+    transition: .3s;
+}
+
+input[type=number]:focus {
+    border-color: dodgerBlue;
+    box-shadow: 0 0 8px 0 dodgerBlue;
+}
+
+.btn {
+    align-items: center;
+    width: 20%;
+    height: 50px;
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    cursor: pointer;
+    background-color: #50d8d7;
+    border-radius: 20px;
+}
+
+.btn:focus {
+    outline: 0;
+}
